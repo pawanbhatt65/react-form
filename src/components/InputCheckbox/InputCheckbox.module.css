@@ -1,0 +1,38 @@
+.input-checkbox {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.input-checkbox p {
+  color: #000;
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+.input-checkbox input {
+  outline: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 3px;
+  box-shadow: none;
+  border-color: #000;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.input-checkbox label {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.input-checkbox p.error {
+  color: rgb(255, 28, 28);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: left;
+}

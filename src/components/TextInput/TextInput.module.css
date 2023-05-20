@@ -1,0 +1,32 @@
+.text-input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.text-input label {
+  color: #000;
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.text-input input {
+  width: 100%;
+  display: block;
+  outline: none;
+  padding: 6px 18px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 3px;
+  box-shadow: none;
+  border-color: #000;
+}
+
+.errorMessage {
+  color: rgb(255, 28, 28);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: left;
+}
