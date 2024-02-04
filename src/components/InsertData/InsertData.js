@@ -145,7 +145,9 @@ const InsertData = () => {
       "input[name='bloodGroup']:checked"
     );
 
-    const checkboxValues = Array.from(checkboxes).map((checkbox) => checkbox.value);
+    const checkboxValues = Array.from(checkboxes).map(
+      (checkbox) => checkbox.value
+    );
 
     const radioValue = bloodGroup ? bloodGroup.value : "";
 
@@ -180,16 +182,16 @@ const InsertData = () => {
       setBloodGroupError("Please select your blood group!");
       return false;
     } else {
-        const userDetails={
-            name: enteredInput.enterName,
-            email: enteredInput.enterEmail,
-            phone: enteredInput.enterNumber,
-            age: enteredInput.enterAge,
-            gender: enteredInput.enterGender,
-            flat: checkboxValues,
-            bloodGroup: radioValue
-        }
-        console.log(userDetails)
+      const userDetails = {
+        name: enteredInput.enterName,
+        email: enteredInput.enterEmail,
+        phone: enteredInput.enterNumber,
+        age: enteredInput.enterAge,
+        gender: enteredInput.enterGender,
+        flat: checkboxValues,
+        bloodGroup: radioValue,
+      };
+      console.log(userDetails);
 
       setEnteredInput({
         enterName: "",
